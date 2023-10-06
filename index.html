@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Text">
+      <div>
+        <h1>Welcome to my Temperature Converter website!</h1>
+        <p>
+          My self <b><i> Dibyajyoti Senapati </i></b>welcome to my Converting
+          Temperature Converter website temperatures has never been easier.
+          Whether you're planning a trip abroad, working on a science project,
+          or simply curious about temperature differences, our user-friendly
+          tool is here to help.
+        </p>
+        <h3>To convert a temperature, follow these simple steps:</h3>
+        <ol>
+          <li>
+            Enter the temperature value you want to convert in the provided
+            field.
+          </li>
+          <li>
+            Select the unit of the temperature you entered (e.g., Celsius,
+            Fahrenheit, Kelvin).
+          </li>
+          <li>
+            Choose the unit you'd like to convert to (Celsius, Fahrenheit, or
+            Kelvin).
+          </li>
+          <li>Click the "Convert" button.</li>
+        </ol>
+      </div>
+      <div>
+        <p>
+          Within moments, you'll see the converted temperature displayed on your
+          screen. It's that easy! Our website is designed to handle various
+          temperature units and conversions, making it a convenient tool for all
+          your temperature-related needs.
+        </p>
+      </div>
+    </div>
+    <div class="converter">
+      <h2>Temperature Converter</h2>
+      <label for="temperature">Enter Temperature :</label>
+      <input
+        type="number"
+        id="temperature"
+        placeholder="Enter temperature..."
+        required
+      />
+      <label for="unit">Select Unit :</label>
+      <select id="unit">
+        <option value="celsius">Celsius (°C)</option>
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+        <option value="kelvin">Kelvin (K)</option>
+      </select>
+      <button onclick="convertTemperature()">Convert</button>
+      <div id="result"></div>
+    </div>
+
+    <div class="Text">
+      <p>
+        Feel free to explore the different conversion options and make use of
+        our handy temperature converter. We're here to make temperature
+        conversion a breeze for you!
+      </p>
+    </div>
+    <div class="fotter">
+      <h3>Developed by <a href="#">Dibyajyoti Senapati</a> &copy; 2023</h3>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
